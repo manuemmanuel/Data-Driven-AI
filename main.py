@@ -4,7 +4,7 @@ import pathway as pw
 import pdfplumber
 
 # Replace 'your-api-key' with your actual OpenAI API key
-openai.api_key = 'sk-proj-F5p2Y1nCiKFFUs947bXsT3BlbkFJAZyg4PfRfRTMTQcIwnXc'
+openai.api_key = ''
 
 st.title('Data-Driven AI Assistant')
 
