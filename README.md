@@ -42,9 +42,9 @@ You can also run the Streamlit app using Docker:
 
 Build the Docker image:
     ```bash
-    docker build -t streamlit-app .
+    docker build -t streamlit-app .```
 
 Run a Docker container based on the built image:
     ```bash
-    docker run -p 8501:8501 streamlit-app
+    docker run -p 8501:8501 streamlit-app```
 Access the app in your web browser at http://localhost:port.
