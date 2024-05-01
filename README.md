@@ -14,7 +14,7 @@ This Streamlit app allows users to upload various types of files (PDF, DOCX, TXT
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your_username/data-driven-ai.git
+   git clone https://github.com/manuemmanuel/Data-Driven-AI.git
 
 2. Navigate to the project directory:
    ```bash
