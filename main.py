@@ -1,18 +1,8 @@
-import streamlit as st
-import spacy
 import pdfplumber
-from spacy.lang.en.stop_words import STOP_WORDS
-from spacy.matcher import Matcher
 import openai
 from config import OPENAI_API_KEY
 
 openai.api_key = OPENAI_API_KEY
-nlp = spacy.load("en_core_web_lg")
-stop_words = set(STOP_WORDS)
-
-st.set_page_config(layout="wide")
-st.title("Data-Driven AI")
-st.subheader("Upload Any Type of File and Ask a Question")
 
 def extract_text_from_pdf(file):
     text = ''
