@@ -48,3 +48,5 @@ Run a Docker container based on the built image:
     ```bash
     docker run -p 8501:8501 streamlit-app```
 Access the app in your web browser at http://localhost:port.
+
+Remember to replace the placeholder in the ```config.py``` file with your openai api key.
